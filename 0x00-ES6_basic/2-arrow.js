@@ -1,4 +1,4 @@
-export default function getNeighborhoodsList() {
+export default function getNeighborhoodsList () {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
   this.addNeighborhood = (newNeighborhood) => {
@@ -6,4 +6,3 @@ export default function getNeighborhoodsList() {
     return this.sanFranciscoNeighborhoods;
   };
 }
-
