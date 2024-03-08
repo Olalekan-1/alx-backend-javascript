@@ -15,11 +15,11 @@ class Car {
   }
 
   cloneCar() {
-    let clone = Object.assign(Object.create(Object.getPrototypeOf(this)), this);
+    const clone = Object.assign(Object.create(Object.getPrototypeOf(this)), this);
     clone._brand = undefined;
     clone._color = undefined;
     clone._motor = undefined;
-    
+
     return clone;
   }
 }
