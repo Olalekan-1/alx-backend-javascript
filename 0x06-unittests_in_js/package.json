@@ -1,0 +1,14 @@
+{
+  "name": "olalekan",
+  "version": "1.0.0",
+  "description": "ola",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "olalekan",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.4.0"
+  }
+}
