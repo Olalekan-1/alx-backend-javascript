@@ -1,3 +1,4 @@
+
 {
   "name": "olalekan",
   "version": "1.0.0",
@@ -9,8 +10,8 @@
   "author": "olalekan",
   "license": "ISC",
   "dependencies": {
-    "chai": "^5.1.0",
     "mocha": "^10.4.0",
-    "sinon": "^17.0.1"
+    "chai": "^5.1.0",
+  "sinon": "^17.0.1"
   }
 }
